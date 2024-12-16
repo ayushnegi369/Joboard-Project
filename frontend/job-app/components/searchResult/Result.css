@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.scroll-list {
+    /* background-color: red; */
+    height: 540px;
+    overflow-y: auto;
+    /* margin-top: 10px; */
+}
+
+.scroll-list::-webkit-scrollbar {
+    width: 0px; 
+    /* Set the width of the scrollbar */
+}

@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.category-box {
+    background-color: white;      
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.category-tabs {
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.tabs {
+    text-align: center;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.active {
+    /* color: white; */
+    text-align: center;
+    justify-content: center;
+    margin-top: 12px;
+}

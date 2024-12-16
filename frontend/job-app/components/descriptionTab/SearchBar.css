@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.search-box {
+    border: none;
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+    background: url("https://img.icons8.com/ios-filled/50/google-web-search.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position:right;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+
+.search-box:focus {
+    border: 1px solid green;
+}
+
+.bar {
+    align-items: center;
+    width: 100%;
+}
+    
+.search-box:focus {
+    outline: none;
+}
